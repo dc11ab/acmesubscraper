@@ -1,7 +1,7 @@
 <html>
 <head><title>Acme Subscraper</title>
-<style type= "text/css " media= "all ">
-@import "acmestyle.css ";
+<style type="text/css" media="all">
+@import "acmestyle.css";
 </style> 
 </head>
 

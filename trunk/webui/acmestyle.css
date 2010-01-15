@@ -2,6 +2,14 @@ body {
 	background:black;
 	font-family:helvetica;
 	}
+div	{
+	margin:0 10 0 10;
+	padding:5 5 5 5;
+	}
+img {
+	max-width:120px;
+	max-height:140px;
+	}
 label {
 	width: 5em;
 	float: left;
@@ -9,31 +17,6 @@ label {
 	margin-right: 0.7em;
 	display: block
 	color:white;
-	}
-input, select {
-	color: #781351; // #781351
-	background: #fee3ad; // #fee3ad
-	border: 1px solid #781351; // #781351
-	}
-input[type=text] {
-	width: 30em
-	}
-input[type=button] {
-	width: auto;
-	margin-left: 4.5em;
-	}
-input[id="search"] {
-	color: #000000;
-	background: #ffa20f;
-	border: 2px outset #d7b9c9;
-	max-width:5em;
-	}
-input[class="nmt"] { 
-	width: auto;
-	margin-left: 4.5em;
-	color: #781351;
-	background: #fee3ad;
-	border: 1px solid orange; // #781351
 	}
 fieldset {
 	border: 1px solid orange; // #781351
@@ -65,6 +48,32 @@ ul	{
 	color:purple;
 	font-size:14;
 	}
+input, select {
+	color: #781351; // #781351
+	background: #fee3ad; // #fee3ad
+	border: 1px solid #781351; // #781351
+	}
+input.nmt { 
+	width: auto;
+	margin-left: 4.5em;
+	color: #781351;
+	background: #fee3ad;
+	border: 1px solid orange; // #781351
+	}
+#search {
+	color: #000000;
+	background: #ffa20f;
+	border: 2px outset #d7b9c9;
+	max-width:5em;
+	}
+input[type=text] {
+	width: 30em
+	}
+input[type=button] {
+	width: auto;
+	margin-left: 4.5em;
+	border: 1px solid #781351; // #781351 FIXME
+	}
 span[id ^='hi'] {
 	padding: 1 25 1 0;
 	background: green url(./img/hearing_impaired.png) no-repeat center right;
@@ -73,18 +82,7 @@ span[id ^='imdb'] {
 	padding: 0 66 0 0;
 	background: transparent url(./img/imdb-big.gif) no-repeat center right;
 	}
-div	{
-	margin:0 10 0 10;
-	padding:5 5 5 5;
-	}
-img {
-	max-width:120px;
-	max-height:140px;
-	}
 span[id="header"] {
 	background:#ffa20f;
 	padding:2px 5px 2px 5px;
 	}
-
-
-	

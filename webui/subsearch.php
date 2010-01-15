@@ -3,10 +3,10 @@
 <meta http-equiv="Content-Type" content="text/html">
 <title>Acme Subscraper</title>
 
-<style type= "text/css " media= "all ">
+<style type="text/css" media="all">
 @import "acmestyle.css";
 </style>
-
+<link rel="stylesheet" type="text/css" href="acmestyle.css" /> 
 </head>
 <body>
 <h1>Acme Subscraper</h1>
@@ -401,14 +401,14 @@ for ( $i = 0; $i > 60; $i += 20 ) { // how many times to iterate??? i=20 is up t
 } // End for loop
 	return $xmlfull;
 } // End function reiterateSSOsearch
-
 //$test = "http://www.subtitlesource.org/api/xmlsearch/Trek/all/";
 //$allresults = reiterateSSOsearch($test);
 //var_dump($allresults);
 
-echo "<br/><p><input type='button' value='Return to search' onClick=\"window.location='index.html';\" /></p>";
 
+echo "<br/><p><input style='position:static' type='button' value='Return to search' onClick=\"window.location='index.html';\" /></p>";
+echo "</fieldset></div></body></html>";
 ?>
 
-</fieldset></div>
-</body></html>
+<!-- </fieldset></div>
+</body></html> -->

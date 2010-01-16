@@ -1,7 +1,0 @@
-{
-    appinfo_format="1",
-    name="AcmeSub",
-    version="0.0.1",
-    enabled="1",
-    webui_path="#PATH#/webui"
-}
